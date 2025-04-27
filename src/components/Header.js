@@ -1,5 +1,7 @@
+// Header.js
 import React from "react";
-import "./Header.css"; // Если у вас есть стили для Header
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -8,13 +10,13 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href="#services">Услуги</a>
+            <Link to="/services">Услуги</Link>
           </li>
           <li>
-            <a href="#reviews">Отзывы</a>
+            <Link to="/reviews">Отзывы</Link>
           </li>
           <li>
-            <a href="#contacts">Контакты</a>
+            <Link to="/contacts">Контакты</Link>
           </li>
         </ul>
       </nav>
