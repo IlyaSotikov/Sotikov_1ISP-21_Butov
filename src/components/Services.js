@@ -1,6 +1,5 @@
-// Services.js
 import React from "react";
-import ServiceCard from "./Services";
+import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (

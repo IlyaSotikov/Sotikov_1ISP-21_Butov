@@ -1,6 +1,5 @@
-// Reviews.js
 import React from "react";
-import ReviewCard from "./Reviews";
+import ReviewCard from "./ReviewCard";
 
 const Reviews = () => {
   return (

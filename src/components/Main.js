@@ -1,7 +1,7 @@
 import React from "react";
-import ServiceCard from "./Services";
-import ReviewCard from "./Reviews";
-import ContactForm from "./Contacts";
+import ServiceCard from "./ServiceCard";
+import ReviewCard from "./ReviewCard";
+import ContactForm from "./ContactForm";
 
 const Main = () => {
   return (
