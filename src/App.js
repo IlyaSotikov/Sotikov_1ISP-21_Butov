@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Reviews from "./components/Reviews";
 import Contacts from "./components/Contacts";
+import './App.css';
 
 const App = () => {
   return (

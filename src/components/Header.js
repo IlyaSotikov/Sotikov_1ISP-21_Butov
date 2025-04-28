@@ -5,7 +5,10 @@ import "./Header.css";
 const Header = () => {
   return (
     <header>
-      <div className="logo">Логотип</div>
+      {}
+      <Link to="/">
+        <img src="logo.png" alt="Логотип" className="logo" />
+      </Link>
       <nav>
         <ul>
           <li>

@@ -8,7 +8,17 @@ const Services = () => {
       <ServiceCard
         title="Ремонт компьютеров"
         description="Быстрый и качественный ремонт вашего устройства."
-        image="path/to/image.jpg"
+        image="service1.jpg"
+      />
+      <ServiceCard
+        title="Ремонт компьютеров"
+        description="Быстрый и качественный ремонт вашего устройства."
+        image="service2.jpg"
+      />
+      <ServiceCard
+        title="Ремонт компьютеров"
+        description="Быстрый и качественный ремонт вашего устройства."
+        image="service3.jpg"
       />
     </section>
   );

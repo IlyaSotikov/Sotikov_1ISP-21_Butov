@@ -6,6 +6,7 @@
     max-width: 300px;
     margin: 20px;
     text-align: center;
+    flex-wrap: initial;
   }
   
   .service-card img {
